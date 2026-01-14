@@ -9,9 +9,9 @@ class Config:
     pretrained_encoder = "intfloat/e5-base-v2"
     word_emb_dim = 768
     num_layers = 1
-    lr = 2e-5
+    lr = 1e-5
     epochs = 10
-    batch_size = 4
+    batch_size = 6
 
 def evaluate(model, loader, device):
     model.eval()
