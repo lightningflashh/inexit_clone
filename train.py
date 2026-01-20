@@ -9,7 +9,7 @@ class Config:
     pretrained_encoder = "bert-base-multilingual-cased"
     word_emb_dim = 768
     num_layers = 1
-    lr = 1e-2
+    lr = 1e-5
     epochs = 10
     batch_size = 6
 
