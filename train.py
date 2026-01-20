@@ -6,10 +6,10 @@ from src.model.inexit import InEXITModel
 from src.preprocess.dataset import InEXITDataset
 
 class Config:
-    pretrained_encoder = "intfloat/e5-base-v2"
+    pretrained_encoder = "bert-base-multilingual-cased"
     word_emb_dim = 768
     num_layers = 1
-    lr = 1e-5
+    lr = 1e-2
     epochs = 10
     batch_size = 6
 
